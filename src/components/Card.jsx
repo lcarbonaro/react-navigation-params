@@ -1,10 +1,10 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Card({ id, name }) {    // taking in props
 
-    const navigate = useNavigate();
-
+    //const navigate = useNavigate();  // not allowed ?!?
+    /*
     return (
         <div className="myCard" onClick={() => navigate(`/details/${id}`)}>
             <p>
@@ -12,6 +12,19 @@ function Card({ id, name }) {    // taking in props
             </p>
         </div>
     );
+    */
+
+    return (
+        <Link to={`/details/${id}`}>
+            <div className="myCard" >
+                <p>
+                    {id}. {name}
+                </p>
+            </div>
+        </Link>
+    );
+
+
 }
 
 export default Card;
