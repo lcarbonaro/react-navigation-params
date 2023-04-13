@@ -32,7 +32,7 @@ function Home() {
         },
         {
             id: 22,
-            name: "Jimenes",            
+            name: "Jimi",            
         },
         {
             id: 23,
@@ -44,7 +44,7 @@ function Home() {
         },
         {
             id: 32,
-            name: "Jacques",            
+            name: "Jon",            
         },
         {
             id: 33,
