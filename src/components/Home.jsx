@@ -4,63 +4,51 @@ function Home() {
     const names = [
         {
             id: 1,
-            name: "Jack",
-            link: "https://www.google.ca/search?q=jack",
+            name: "Jack",            
         },
         {
             id: 2,
-            name: "Jill",
-            link: "https://www.google.ca/search?q=jill",
+            name: "Jill",            
         },
         {
             id: 3,
-            name: "Joe",
-            link: "https://www.google.ca/search?q=joe",
+            name: "Joe",            
         },
         {
             id: 11,
-            name: "Jack",
-            link: "https://www.google.ca/search?q=jack",
+            name: "Jackie",            
         },
         {
             id: 12,
-            name: "Jill",
-            link: "https://www.google.ca/search?q=jill",
+            name: "Jillian",            
         },
         {
             id: 13,
-            name: "Joe",
-            link: "https://www.google.ca/search?q=joe",
+            name: "Jolene",            
         },
         {
             id: 21,
-            name: "Jack",
-            link: "https://www.google.ca/search?q=jack",
+            name: "Jacinda",            
         },
         {
             id: 22,
-            name: "Jill",
-            link: "https://www.google.ca/search?q=jill",
+            name: "Jimenes",            
         },
         {
             id: 23,
-            name: "Joe",
-            link: "https://www.google.ca/search?q=joe",
+            name: "James",            
         },
         {
             id: 31,
-            name: "Jack",
-            link: "https://www.google.ca/search?q=jack",
+            name: "Jerri",            
         },
         {
             id: 32,
-            name: "Jill",
-            link: "https://www.google.ca/search?q=jill",
+            name: "Jacques",            
         },
         {
             id: 33,
-            name: "Joe",
-            link: "https://www.google.ca/search?q=joe",
+            name: "Josie",            
         },
     ];
 
